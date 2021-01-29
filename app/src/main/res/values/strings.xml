@@ -1,0 +1,590 @@
+<resources>
+    <string name="demo_qes">Hello! How are you?</string>
+    <string name="app_name">Tense</string>
+    <string name="title">TITLE</string>
+    <string name="secondary_text">SECONDARY TEXT</string>
+    <string name="supporting_text">SUPPORTING TEXT</string>
+    <string name="past">PAST TENSE</string>
+
+    <string name="present">PRESENT TENSE</string>
+    <string name="future">FUTURE TENSE</string>
+    <string name="practice">PRACTICE</string>
+    <string name="action_1">ACTION 1</string>
+    <string name="action_2">ACTION 2</string>
+
+    <string name="pastsimple">SIMPLE PAST TENSE</string>
+    <string name="pastperfect">PAST PERFECT TENSE</string>
+    <string name="pastcontinuous">PAST CONTINUOUS TENSE</string>
+    <string name="pastperfectcontinuous">PAST PERFECT CONTINUOUS TENSE</string>
+
+    <string name="presentsimple">SIMPLE PRESENT TENSE</string>
+    <string name="presentperfect">PRESENT PERFECT TENSE</string>
+    <string name="presentcontinuous">PRESENT CONTINUOUS TENSE</string>
+    <string name="presentperfectcontinuous">PRESENT PERFECT CONTINUOUS TENSE</string>
+
+    <string name="futureperfectcontinuous">FUTURE PERFECT CONTINUOUS TENSE</string>
+    <string name="futurecontinuous">FUTURE CONTINUOUS TENSE</string>
+    <string name="futureperfect">FUTURE PERFECT TENSE</string>
+    <string name="futuresimple">SIMPLE FUTURE TENSE</string>
+
+    <string name="pastsimpledesc">To indicate a past habit - or an action already completed. Can be used with or without adverbs of time</string>
+    <string name="formulae"><b>FORMULAE: </b></string>
+    <string name="example"><b>EXAMPLE:-</b></string>
+    <string name="pastsimpleformulae">S          +          V2          +          O</string>
+
+
+    <string name="pastsimpleexample1"><i> ~ I <b>ate</b> pizza yesterday.</i></string>
+    <string name="pastsimpleexample2"><i> ~ <b>Did</b> you have dinner last night?</i></string>
+    <string name="pastsimpleexample3"><i> ~ I <b>did not</b> see a play yesterday.</i></string>
+    <string name="bottomtext">S = Subject | O = Object | V = Verb (V1 = present / v2 = past / v3 = past participle)</string>
+
+
+    <string-array name="optionarray">
+
+        <item>SIMPLE PAST TENSE</item>
+        <item>PAST PERFECT TENSE</item>
+        <item>PAST CONTINUOUS TENSE</item>
+        <item>PAST PERFECT CONTINUOUS TENSE</item>
+
+        <item>SIMPLE PRESENT TENSE</item>
+        <item>PRESENT PERFECT TENSE</item>
+        <item>PRESENT CONTINUOUS TENSE</item>
+        <item>PRESENT PERFECT CONTINUOUS TENSE</item>
+
+        <item>SIMPLE FUTURE  TENSE</item>
+        <item>FUTURE PERFECT CONTINUOUS TENSE</item>
+        <item>FUTURE CONTINUOUS TENSE</item>
+        <item>FUTURE PERFECT TENSE</item>
+
+
+    </string-array>
+
+
+    <string-array name="pastsimpledetailsstrarr">
+
+        <item>PAST SIMPLE TENSE</item>
+        <item>To indicate a past habit - or an action already completed. Can be used with or without adverbs of time.</item>
+        <item>FORMULAE</item>
+        <item>S + V2 + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>ate</b> pizza yesterday.</i></item>
+        <item><i> ~ <b>Did</b> you have dinner last night?</i></item>
+        <item><i> ~ I <b>did not</b> see a play yesterday.</i></item>
+    </string-array>
+
+    <string-array name="pastcontinuousarr">
+
+        <item>PAST CONTINUOUS TENSE</item>
+        <item>To indicate uncompleted action of the past (with/without time reference). To Indicate persistent habits of the pas(with always, continuously, forever etc.)</item>
+        <item>FORMULAE</item>
+        <item>S + was/were + V(ing) + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>was eating</b> pizza when you arrived.</i></item>
+        <item><i> ~ They <b>were meeting</b> secretly after school.</i></item>
+        <item><i> ~ The children <b>were growing</b> up quickly.</i></item>
+
+    </string-array>
+
+    <string-array name="pastperfectarr">
+
+        <item>PAST PERFECT TENSE</item>
+        <item>To indicate a complete action of the past that happened before another event took place.</item>
+        <item>FORMULAE</item>
+        <item>S + had + V3 + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>had eaten</b> all of the pizza when you arrived.</i></item>
+        <item><i> ~ The plane <b>had left</b> by the time I got to the airport.</i></item>
+        <item><i> ~ Kate <b>had wanted</b> to see the movie, but she did not have money for the ticket.</i></item>
+
+    </string-array>
+
+    <string-array name="pastperfectcontinuousarr">
+
+        <item>PAST PERFECT CONTINUOUS TENSE</item>
+        <item>To indicate an action in the past that began before a certain point in the past and continued up until that time.</item>
+        <item>FORMULAE</item>
+        <item>S + had been+ V(ing) + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>had been eating</b>  pizza for 2 hours when you arrived.</i></item>
+        <item><i> ~ The program that was terminated <b>had been working</b> well since 1945.</i></item>
+        <item><i> ~ Martha <b>had been walking</b> three miles a day before she broke her leg.</i></item>
+
+    </string-array>
+    <!--Present Tense Data-->
+    <string-array name="simplepresenttensearr">
+
+        <item>SIMPLE PRESENT TENSE</item>
+        <item>To indicate habits or general truth. To indicate a future event on a designated date as part of a plan or arrangement. With mental action verbs like, love, want, need, believe,etc </item>
+        <item>FORMULAE</item>
+        <item>S + V1 + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>eat</b>  pizza everyday.</i></item>
+        <item><i> ~ she <b>works</b> in london.</i></item>
+        <item><i> ~ Do you <b>play</b> the piano.</i></item>
+
+    </string-array>
+
+    <string-array name="presentcontinuoustensearr">
+
+        <item>PRESENT CONTINUOUS TENSE</item>
+        <item>To indicate action going on at the time of speaking. To indicate temporary action which may not be happening at the time of speaking.</item>
+        <item>FORMULAE</item>
+        <item>S + is/am/are + V(+ing) + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ He <b>is talking</b>  to his friend.</i></item>
+        <item><i> ~ We <b>are visiting</b> the museum in the afternoon.</i></item>
+        <item><i> ~ <b>Is the baby drinking</b> his bottle?</i></item>
+
+    </string-array>
+
+    <string-array name="presenperfecttensearr">
+
+        <item>PRESENT PERFECT TENSE</item>
+        <item>To indicate past action which is not defined by a time of occurrence. To Indicate an action which started in the past and has continued up until now.</item>
+        <item>FORMULAE</item>
+        <item>S + have/has + V3 + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>have eaten</b>  all of the pizza.</i></item>
+        <item><i> ~ We <b>have not seen</b> her today.</i></item>
+        <item><i> ~ <b>He has finished</b> his homework..</i></item>
+
+    </string-array>
+
+    <string-array name="presenperfectcontinuoustensearr">
+
+        <item>PRESENT PERFECT CONTINUOUS TENSE</item>
+        <item>To indicate an action which started at some point in the past and may or may not be complete.</item>
+        <item>FORMULAE</item>
+        <item>S + have/has been + V(+ing) + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>have been eating</b> pizza for 2 hours.</i></item>
+        <item><i> ~ She <b>has been waiting</b> for you all day.</i></item>
+        <item><i> ~ where <b>have you been running</b>?</i></item>
+
+    </string-array>
+    <!--future-->
+    <string-array name="simplefuturetensearr">
+
+        <item>SIMPLE FUTURE TENSE</item>
+        <item>To indicate an action, condition, or circumstance which has not taken place yet.</item>
+        <item>FORMULAE</item>
+        <item>S + will + V + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>will eat</b> pizza tomorrow.</i></item>
+        <item><i> ~ He <b>will carry</b> your bag for you.</i></item>
+        <item><i> ~ <b>Will you come</b> to the dance with me?</i></item>
+
+    </string-array>
+
+    <string-array name="futurecontinuoustensearr">
+
+        <item>FUTURE CONTINUOUS TENSE</item>
+        <item>To indicate what will be going on at some time in the future. To indicate planned future events.</item>
+        <item>FORMULAE</item>
+        <item>S + will be + V(+ing) + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>will be eating</b> pizza when you arrive.</i></item>
+        <item><i> ~ We <b>will be shopping</b> in that market this Monday.</i></item>
+        <item><i> ~ <b>Will it be raining</b> at this time tomorrow?</i></item>
+
+    </string-array>
+
+    <string-array name="futureperfecttensearr">
+
+        <item>FUTURE PERFECT TENSE</item>
+        <item>To indicate what will be going on at some time in the future. To indicate planned future events.</item>
+        <item>FORMULAE</item>
+        <item>S + will have + V3 + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>will have eaten</b> all of the pizza bt the time you arrive.</i></item>
+        <item><i> ~ They <b>will have had</b> their dinner by then.</i></item>
+        <item><i> ~ <b>Will you have ploughed</b> your field by monday?</i></item>
+
+    </string-array>
+
+    <string-array name="futureperfectcontinuoustensearr">
+
+        <item>FUTURE PERFECT CONTINUOUS TENSE</item>
+        <item>To indicate an action that will have happened for some time and will not be complete yet at a certain point in the future.</item>
+        <item>FORMULAE</item>
+        <item>S + will have been + V(+ing) + O</item>
+        <item>EXAMPLE</item>
+
+        <item><i> ~ I <b>will have been eating</b> pizza for 2 hours when you arrive.</i></item>
+        <item><i> ~ We <b>will have been shopping</b> in that market before you come home.</i></item>
+        <item><i> ~ <b>Will you have been waiting</b> for more than two hours when her plane finally arrives?</i></item>
+
+    </string-array>
+
+
+    <string-array name="practiceData">
+
+        <item>I will be writing articles on different topics. | Future Continuous Tense</item>
+        <item>Robert will be reading various kinds of books. | Future Continuous Tense</item>
+        <item>They will be playing football in that field. | Future Continuous Tense</item>
+        <item>April will be having coffee in this coffee shop. | Future Continuous Tense</item>
+        <item>Bob will be going to the library. | Future Continuous Tense</item>
+        <item>We will be shopping in that market this Monday. | Future Continuous Tense</item>
+        <item>We will be watching a movie in this Cineplex on next Friday. | Future Continuous Tense</item>
+        <item>You will be shopping at that market tomorrow. | Future Continuous Tense</item>
+        <item>I will be singing different kinds of songs, especially modern. | Future Continuous Tense</item>
+        <item>I will be attending a program of my varsity on Friday. | Future Continuous Tense</item>
+        <item>Jeff will be traveling around the world in March. | Future Continuous Tense</item>
+        <item>They will be playing hockey in that field on Thursday. | Future Continuous Tense</item>
+        <item>The poet will be writing a romantic poem for the program. | Future Continuous Tense</item>
+        <item>The lyricist will be writing a realistic song for the film. | Future Continuous Tense</item>
+        <item>Will you be going to the concert of realistic songs? | Future Continuous Tense</item>
+        <item>I will not be attending the program because of my busy schedule. | Future Continuous Tense</item>
+        <item>Robin will be joining us at the meeting. | Future Continuous Tense</item>
+        <item>I will be helping him to do the task. | Future Continuous Tense</item>
+        <item>We will be going to enjoy the musical drama. | Future Continuous Tense</item>
+        <item>I will be arranging all the necessary materials for the program. | Future Continuous Tense</item>
+        <item>They will have been living in Paris for five years. | Future Perfect Continuous Tense</item>
+        <item>The Kid will have been sleeping since 10 PM. | Future Perfect Continuous Tense</item>
+        <item>The doctor will have been treating patients for two years. | Future Perfect Continuous Tense</item>
+        <item>He will have been reading this book since 10 AM. | Future Perfect Continuous Tense</item>
+        <item>He will be working as an engineer in this factory since January. | Future Perfect Continuous Tense</item>
+        <item>We will have been starting your business since May. | Future Perfect Continuous Tense</item>
+        <item>You will have been using my computer for five months. | Future Perfect Continuous Tense</item>
+        <item>She will have been singing songs for three hours. | Future Perfect Continuous Tense</item>
+        <item>They will have been discussing about the issue for five days. | Future Perfect Continuous Tense</item>
+        <item>They will have been writing essays for two hours. | Future Perfect Continuous Tense</item>
+        <item>He will not have been working in the factory for six months. | Future Perfect Continuous Tense</item>
+        <item>She will not have been playing games since November. | Future Perfect Continuous Tense</item>
+        <item>They will not have been using this car since March. | Future Perfect Continuous Tense</item>
+        <item>The company will not have been advertising posts for two years. | Future Perfect Continuous Tense</item>
+        <item>He will not have been listening to music for nine hours. | Future Perfect Continuous Tense</item>
+        <item>She will not have been washing her dresses since June. | Future Perfect Continuous Tense</item>
+        <item>I will not have been waiting for you for four hours. | Future Perfect Continuous Tense</item>
+        <item>He will not have been running his business since April. | Future Perfect Continuous Tense</item>
+        <item>She will not have been living here for five years. | Future Perfect Continuous Tense</item>
+        <item>Will he have been loving her for five years? | Future Perfect Continuous Tense</item>
+        <item>Will she have been studying in the new college since December? | Future Perfect Continuous Tense</item>
+        <item>Will they have been working in this factory since June? | Future Perfect Continuous Tense</item>
+        <item>Will the kids have been making a noise for three hours? | Future Perfect Continuous Tense</item>
+        <item>Will they have been using their phone since Tomorrow? | Future Perfect Continuous Tense</item>
+        <item>Will you have been eating vegetables for three months. | Future Perfect Continuous Tense</item>
+        <item>I will have written articles on different topics before you come. | Future Perfect Tense</item>
+        <item>Robert will have read various kinds of books. | Future Perfect Tense</item>
+        <item>They will have played football in that field before you reach. | Future Perfect Tense</item>
+        <item>April will have gone to the coffee shop before she comes here. | Future Perfect Tense</item>
+        <item>Bob will have gone to the library before he comes to the class. | Future Perfect Tense</item>
+        <item>We will have shopped in that market before you come home. | Future Perfect Tense</item>
+        <item>We will have watched a movie in this Cineplex before you come. | Future Perfect Tense</item>
+        <item>You will have shopped at that market before we come. | Future Perfect Tense</item>
+        <item>I will have sung different kinds of songs before you join us. | Future Perfect Tense</item>
+        <item>I will have attended the program before I come here. | Future Perfect Tense</item>
+        <item>Jeff will have traveled around the world before he comes to Bangladesh. | Future Perfect Tense</item>
+        <item>They will have played hockey in that field before you reach. | Future Perfect Tense</item>
+        <item>The poet will have written a romantic poem before the program starts. | Future Perfect Tense</item>
+        <item>The lyricist will have written a realistic song for the film. | Future Perfect Tense</item>
+        <item>Will you have gone to the concert of the realistic songs before I come? | Future Perfect Tense</item>
+        <item>I will not have attended the program because of my busy schedule. | Future Perfect Tense</item>
+        <item>Robin will have joined us at the meeting before you reach. | Future Perfect Tense</item>
+        <item>I will have helped him to do the task before the class starts. | Future Perfect Tense</item>
+        <item>We will have enjoyed the musical drama before the game show starts. | Future Perfect Tense</item>
+        <item>I will have arranged all the necessary materials before the program starts. | Future Perfect Tense</item>
+        <item>I was writing articles on different topics. | Past Continuous Tense</item>
+        <item>He was reading various kinds of books. | Past Continuous Tense</item>
+        <item>They were playing football in that field. | Past Continuous Tense</item>
+        <item>She was drinking coffee in that coffee shop. | Past Continuous Tense</item>
+        <item>He was studying in the library. | Past Continuous Tense</item>
+        <item>We were shopping in this market last week. | Past Continuous Tense</item>
+        <item>We were watching a movie in this Cineplex yesterday. | Past Continuous Tense</item>
+        <item>You were shopping in that market. | Past Continuous Tense</item>
+        <item>I was singing different kinds of songs, especially modern. | Past Continuous Tense</item>
+        <item>I was listening to melodious songs last evening. | Past Continuous Tense</item>
+        <item>He was traveling around the world. | Past Continuous Tense</item>
+        <item>They were playing hockey on that field last week. | Past Continuous Tense</item>
+        <item>The poet was writing a romantic poem. | Past Continuous Tense</item>
+        <item>The lyricist was writing a realistic song for the program. | Past Continuous Tense</item>
+        <item>Were you enjoying the concert of realistic songs? | Past Continuous Tense</item>
+        <item>I was not watching the cricket match on television. | Past Continuous Tense</item>
+        <item>He was practicing to sing the song for the program. | Past Continuous Tense</item>
+        <item>I was helping him to do the task. | Past Continuous Tense</item>
+        <item>We were enjoying the program thoroughly. | Past Continuous Tense</item>
+        <item>I was shopping at the Dhaka International Trade Fair with my elder brother. | Past Continuous Tense</item>
+        <item>I had been writing articles on various topics for three hours. | Past Perfect Continuous Tense</item>
+        <item>He had been reading different kinds of books since morning. | Past Perfect Continuous Tense</item>
+        <item>They had been playing football in that field before it started to rain. | Past Perfect Continuous Tense</item>
+        <item>Jane had been gossiping in the coffee shop for two hours. | Past Perfect Continuous Tense</item>
+        <item>Jeff had been studying in the library before he came to the class. | Past Perfect Continuous Tense</item>
+        <item>We had been shopping in that shop before we came home. | Past Perfect Continuous Tense</item>
+        <item>We had been watching a movie in this Cineplex for three hours. | Past Perfect Continuous Tense</item>
+        <item>You had been shopping in that market before you came home. | Past Perfect Continuous Tense</item>
+        <item>I had been singing different kinds of songs for an hour. | Past Perfect Continuous Tense</item>
+        <item>I had been listening to melodious songs for two hours. | Past Perfect Continuous Tense</item>
+        <item>Tom had been traveling around the world since the month of December. | Past Perfect Continuous Tense</item>
+        <item>They had been playing hockey on that field for three hours. | Past Perfect Continuous Tense</item>
+        <item>The poet had been writing romantic poems since morning. | Past Perfect Continuous Tense</item>
+        <item>The lyricist had been writing realistic songs since the beginning of his career. | Past Perfect Continuous Tense</item>
+        <item>Had you not been enjoying the concert for three hours? | Past Perfect Continuous Tense</item>
+        <item>I had not been watching the cricket match on television for two hours. | Past Perfect Continuous Tense</item>
+        <item>Richard had been practicing to sing the song since morning. | Past Perfect Continuous Tense</item>
+        <item>I had been helping him to do the task before I started the program. | Past Perfect Continuous Tense</item>
+        <item>We had been enjoying the program thoroughly for three hours. | Past Perfect Continuous Tense</item>
+        <item>I had been shopping with my elder brother in the fair since morning. | Past Perfect Continuous Tense</item>
+        <item>I had never seen such a beautiful sunset before I went to the island. | Past Perfect Tense</item>
+        <item>We were not able to stay overnight at the hotel since we had not reserved a room in advance. | Past Perfect Tense</item>
+        <item>She had never been to the symphony before last night. | Past Perfect Tense</item>
+        <item>Marc knew Philadelphia so well because he had lived there for five years. | Past Perfect Tense</item>
+        <item>He understood the math test because he had been tutored all week. | Past Perfect Tense</item>
+        <item>I did not have any cash because I had lost my purse. | Past Perfect Tense</item>
+        <item>I had been to Mexico once before. | Past Perfect Tense</item>
+        <item>If I had seen him, I would have told him the news. | Past Perfect Tense</item>
+        <item>Before he did his homework, he had stayed after school for help. | Past Perfect Tense</item>
+        <item>She had lived in California before moving to Texas. | Past Perfect Tense</item>
+        <item>The cat had chased the bird before it flew out of the yard. | Past Perfect Tense</item>
+        <item>We had just called home when my mom texted us about returning the car. | Past Perfect Tense</item>
+        <item>She had visited several doctors before she found out what the problem was with her hand. | Past Perfect Tense</item>
+        <item>If we had called ahead, we would not have needed to wait so long for a table. | Past Perfect Tense</item>
+        <item>I am writing articles on different topics. | Present Continuous Tense</item>
+        <item>He is reading various kinds of books. | Present Continuous Tense</item>
+        <item>They are playing football now. | Present Continuous Tense</item>
+        <item>She is drinking coffee. | Present Continuous Tense</item>
+        <item>He is going to the library. | Present Continuous Tense</item>
+        <item>We are coming for shopping in this market. | Present Continuous Tense</item>
+        <item>We are watching a movie in this Cineplex. | Present Continuous Tense</item>
+        <item>You are shopping in that market. | Present Continuous Tense</item>
+        <item>I am singing different kinds of songs, especially modern. | Present Continuous Tense</item>
+        <item>I am listening to melodious songs. | Present Continuous Tense</item>
+        <item>He is traveling around the world. | Present Continuous Tense</item>
+        <item>They are playing cricket in that field. | Present Continuous Tense</item>
+        <item>The poet is writing romantic poems. | Present Continuous Tense</item>
+        <item>The lyricist is writing realistic songs. | Present Continuous Tense</item>
+        <item>Are you listening to realistic songs? | Present Continuous Tense</item>
+        <item>I am not quarreling with you. | Present Continuous Tense</item>
+        <item>Are you coming to our home? | Present Continuous Tense</item>
+        <item>I am helping him to do the task. | Present Continuous Tense</item>
+        <item>My mom is cooking beef with cabbage. | Present Continuous Tense</item>
+        <item>Are you watching cricket on television? | Present Continuous Tense</item>
+        <item>I have been writing articles on different topics since morning. | Present Perfect Continuous Tense</item>
+        <item>He has been reading the book for two hours. | Present Perfect Continuous Tense</item>
+        <item>They have been playing football for an hour. | Present Perfect Continuous Tense</item>
+        <item>She has been finding the dress since morning. | Present Perfect Continuous Tense</item>
+        <item>He has been studying in the library for three hours. | Present Perfect Continuous Tense</item>
+        <item>We have been shopping at this fair for two hours. | Present Perfect Continuous Tense</item>
+        <item>We have been watching a movie in this Cineplex for two hours. | Present Perfect Continuous Tense</item>
+        <item>You have been shopping in that market for three hours. | Present Perfect Continuous Tense</item>
+        <item>I have been singing different kinds of songs, especially modern. | Present Perfect Continuous Tense</item>
+        <item>I have been listening to melodious songs for an hour. | Present Perfect Continuous Tense</item>
+        <item>He has been traveling around the world for a month. | Present Perfect Continuous Tense</item>
+        <item>They have been playing cricket in that field for five hours. | Present Perfect Continuous Tense</item>
+        <item>The poet has been writing romantic poems for several hours. | Present Perfect Continuous Tense</item>
+        <item>The lyricist has been writing realistic songs since the beginning of his career. | Present Perfect Continuous Tense</item>
+        <item>Have you been listening to realistic songs since morning? | Present Perfect Continuous Tense</item>
+        <item>I have not been watching the cricket match for an hour. | Present Perfect Continuous Tense</item>
+        <item>Have you been preparing the assignment for two hours? | Present Perfect Continuous Tense</item>
+        <item>I have been helping him to do the task for an hour. | Present Perfect Continuous Tense</item>
+        <item>My mom has been cooking for three hours. | Present Perfect Continuous Tense</item>
+        <item>I have been watching the concert for an hour. | Present Perfect Continuous Tense</item>
+        <item>My sister has already made a big cake. | Present Perfect Tense</item>
+        <item>You have grown since the last time I saw you. | Present Perfect Tense</item>
+        <item>It hasn’t drunk the water.10.I have never been to Texas. | Present Perfect Tense</item>
+        <item>I have seen that movie.11.They have bought a new car. | Present Perfect Tense</item>
+        <item>We haven’t received any mail since we were retired.12.I have studied at home for one hour. | Present Perfect Tense</item>
+        <item>They haven’t gone to the shopping center.13.There has been an accident. | Present Perfect Tense</item>
+        <item>Have they played the piano? No, they haven’t.14.People have not traveled to Venus. | Present Perfect Tense</item>
+        <item>I have known Michael since high school.15.Alex has studied two foreign languages. | Present Perfect Tense</item>
+        <item>My baby has slept since all night.16.She has learned to speak Spanish. | Present Perfect Tense</item>
+        <item>She has gone to the library. | Present Perfect Tense</item>
+        <item>You have not gone home.I have written articles on different topics. | Present Perfect Tense</item>
+        <item>He has read various kinds of books. | Present Perfect Tense</item>
+        <item>They have played football. | Present Perfect Tense</item>
+        <item>They haven’t lived here for years.She has taken coffee. | Present Perfect Tense</item>
+        <item>He has gone to the library. | Present Perfect Tense</item>
+        <item>where have I left my wallet?We have shopped in this market. | Present Perfect Tense</item>
+        <item>We have watched movies in this Cineplex. | Present Perfect Tense</item>
+        <item>My sister has lost the key to the bathroom.You have shopped in that market. | Present Perfect Tense</item>
+        <item>I have sung different kinds of songs, especially modern. | Present Perfect Tense</item>
+        <item>He has never eaten these pizzas.I have listened to melodious songs. | Present Perfect Tense</item>
+        <item>He has traveled around the world. | Present Perfect Tense</item>
+        <item>The army has attacked that city two times.They have played cricket in that field. | Present Perfect Tense</item>
+        <item>The poet has written romantic poems. | Present Perfect Tense</item>
+        <item>You have listened to Madonna in the concert.The lyricist has written realistic songs. | Present Perfect Tense</item>
+        <item>Have you listened to realistic songs? | Present Perfect Tense</item>
+        <item>Scientists have split the atom.I have not quarreled with you. | Present Perfect Tense</item>
+        <item>Have you been to this place before? | Present Perfect Tense</item>
+        <item>I have helped him to do the task. | Present Perfect Tense</item>
+        <item>My mom has cooked beef with cabbage. | Present Perfect Tense</item>
+        <item>I have watched the cricket match on television. | Present Perfect Tense</item>
+        <item>You children will be the future of this country. | Simple Future Tense</item>
+        <item>We will paint our house next week.10. He will help you tomorrow. | Simple Future Tense</item>
+        <item>You are going to cry.11. I will see you tomorrow, please wait me. | Simple Future Tense</item>
+        <item>They will write the letter to their best friend.12. They are going to dance. | Simple Future Tense</item>
+        <item>He will close the shop.13. I will go to London next week. | Simple Future Tense</item>
+        <item>She will see her friend at the weekend.14. I will be twenty seven in April. | Simple Future Tense</item>
+        <item>I will read the newspaper when I go to bus station.15. She won’t do the ironing. | Simple Future Tense</item>
+        <item>Tomorrow, the sun will rise at 6:00 am. | Simple Future Tense</item>
+        <item>They will be here in two hours. | Simple Future Tense</item>
+        <item>Will it be windy tomorrow morning? | Simple Future Tense</item>
+        <item>He will love her forever. | Simple Future Tense</item>
+        <item>She will cry. | Simple Future Tense</item>
+        <item>You will miss me in future. | Simple Future Tense</item>
+        <item>They will come here tomorrow. | Simple Future Tense</item>
+        <item>I will miss you when you move to another country. | Simple Future Tense</item>
+        <item>Mark will fix my car. | Simple Future Tense</item>
+        <item>I won’t go to the theater. | Simple Future Tense</item>
+        <item>Tomorrow, My father will apply for a new job. | Simple Future Tense</item>
+        <item>We won’t go to the theater. | Simple Future Tense</item>
+        <item>I won’t go to the cemetery. | Simple Future Tense</item>
+        <item>We are going to eat. | Simple Future Tense</item>
+        <item>We think, We will be back on Sunday from holiday. | Simple Future Tense</item>
+        <item>I will stay at home at the weekend. | Simple Future Tense</item>
+        <item>He will call me tomorrow. | Simple Future Tense</item>
+        <item>We will play basketball. | Simple Future Tense</item>
+        <item>You’ll feel better with this orange juice. | Simple Future Tense</item>
+        <item>I am afraid you won’t remember me. | Simple Future Tense</item>
+        <item>He is going to jump. | Simple Future Tense</item>
+        <item>You will go to France tomorrow. | Simple Future Tense</item>
+        <item>He is going to sleep. | Simple Future Tense</item>
+        <item>She will be a successful engineer in 3 years. | Simple Future Tense</item>
+        <item>Will you come to the party? | Simple Future Tense</item>
+        <item>When will you travel? | Simple Future Tense</item>
+        <item>You can’t carry this luggage yourself. I will help you. | Simple Future Tense</item>
+        <item>I am going to cook tonight. | Simple Future Tense</item>
+        <item>It won’t be very cold next week. | Simple Future Tense</item>
+        <item>Will it hurt? | Simple Future Tense</item>
+        <item>I will make a tea. | Simple Future Tense</item>
+        <item>She will meet with her best friends. | Simple Future Tense</item>
+        <item>They will win the game. | Simple Future Tense</item>
+        <item>She won’t watch the football match. | Simple Future Tense</item>
+        <item>They will go to the school. | Simple Future Tense</item>
+        <item>It will stay in the outside. | Simple Future Tense</item>
+        <item>We will probably win. | Simple Future Tense</item>
+        <item>I watched TV last week. | Simple Past Tense</item>
+        <item>We ate meat with my best friend yesterday. | Simple Past Tense</item>
+        <item>The bus stopped a few minutes ago. | Simple Past Tense</item>
+        <item>I met my wife 9 years ago. | Simple Past Tense</item>
+        <item>She left the school in 2010. | Simple Past Tense</item>
+        <item>He bought a new house last month. | Simple Past Tense</item>
+        <item>Did she clean her home? | Simple Past Tense</item>
+        <item>I read an interesting book last month. | Simple Past Tense</item>
+        <item>We did a lot of shopping at the shopping mall. | Simple Past Tense</item>
+        <item>He cut his finger and went to hospital. | Simple Past Tense</item>
+        <item>She finished her work at six o’clock. | Simple Past Tense</item>
+        <item>The rain stopped an hour ago. | Simple Past Tense</item>
+        <item>It discovered a new land. | Simple Past Tense</item>
+        <item>We watched a movie last weekend. | Simple Past Tense</item>
+        <item>We were good friends. | Simple Past Tense</item>
+        <item>You were at station. | Simple Past Tense</item>
+        <item>I went to bed early yesterday. | Simple Past Tense</item>
+        <item>George came home very late last night. | Simple Past Tense</item>
+        <item>I forgot my wallet. | Simple Past Tense</item>
+        <item>He had a dog last year. | Simple Past Tense</item>
+        <item>Last year I traveled to Germany. | Simple Past Tense</item>
+        <item>Two boys played with a ball. | Simple Past Tense</item>
+        <item>An old lady walked with her cat. | Simple Past Tense</item>
+        <item>A nurse brought a little girl baby to the park. | Simple Past Tense</item>
+        <item>An old man sat down and read his book. | Simple Past Tense</item>
+        <item>A large trunk came around the corner. | Simple Past Tense</item>
+        <item>She finished all the exercices. | Simple Past Tense</item>
+        <item>I enrolled to the pilates course. | Simple Past Tense</item>
+        <item>Dr Smith healed the patient. | Simple Past Tense</item>
+        <item>They bought 2 tickets for the U2 concert. | Simple Past Tense</item>
+        <item>Michael studied hard all year. | Simple Past Tense</item>
+        <item>Did you play football last day? | Simple Past Tense</item>
+        <item>I missed the class last week. | Simple Past Tense</item>
+        <item>My brother drank a glass of milk 2 hours ago. | Simple Past Tense</item>
+        <item>They had a meeting with her colleagues. | Simple Past Tense</item>
+        <item>They were students last year. | Simple Past Tense</item>
+        <item>He smoked a cigarrette. | Simple Past Tense</item>
+        <item>They lived in the Spain. | Simple Past Tense</item>
+        <item>Alex changed his place. | Simple Past Tense</item>
+        <item>I liked the film. | Simple Past Tense</item>
+        <item>Did they lose the match? | Simple Past Tense</item>
+        <item>A gardener swept up dead leaves. | Simple Past Tense</item>
+        <item>We listened to music. | Simple Past Tense</item>
+        <item>Where was she at 7 o’clock last night? | Simple Past Tense</item>
+        <item>Amelia chose to stay with her father. | Simple Past Tense</item>
+        <item>Mary forgot to turn off the light. | Simple Past Tense</item>
+        <item>I cancelled my meeting for tomorrow. | Simple Past Tense</item>
+        <item>I went to school yesterday. | Simple Past Tense</item>
+        <item>We played basketball last Sunday. | Simple Past Tense</item>
+        <item>We saw the Eiffel Tower. | Simple Past Tense</item>
+        <item>He loves to play basketball. | Simple Present Tense</item>
+        <item>He goes to school. | Simple Present Tense</item>
+        <item>Does he go to school? | Simple Present Tense</item>
+        <item>She writes an e-mail to her best friend. | Simple Present Tense</item>
+        <item>He thinks he is very handsome. | Simple Present Tense</item>
+        <item>It usually rains every day here. | Simple Present Tense</item>
+        <item>It smells very delicious in the kitchen. | Simple Present Tense</item>
+        <item>We generally sing songs all together. | Simple Present Tense</item>
+        <item>We go to a gallery every Sunday. | Simple Present Tense</item>
+        <item>The sun rises at the east. | Simple Present Tense</item>
+        <item>She goes to work by car. | Simple Present Tense</item>
+        <item>Does he write an email? | Simple Present Tense</item>
+        <item>They go to a gallery every Saturday. | Simple Present Tense</item>
+        <item>It doesn’t rain here in the summer. | Simple Present Tense</item>
+        <item>We cook every day. | Simple Present Tense</item>
+        <item>We go to the gym club together. | Simple Present Tense</item>
+        <item>You have a big house. | Simple Present Tense</item>
+        <item>Do we know each other? | Simple Present Tense</item>
+        <item>They sleep in the afternoon. | Simple Present Tense</item>
+        <item>When do they usually talk to each other? | Simple Present Tense</item>
+        <item>The children are at home. | Simple Present Tense</item>
+        <item>The earth goes round the sun. | Simple Present Tense</item>
+        <item>George brushes his teeth twice a day. | Simple Present Tense</item>
+        <item>He gets up early every day. | Simple Present Tense</item>
+        <item>They speak English in USA. | Simple Present Tense</item>
+        <item>I like reading detective stories. | Simple Present Tense</item>
+        <item>I like geography and science. | Simple Present Tense</item>
+        <item>She doesn’t study German on Monday. | Simple Present Tense</item>
+        <item>she live in Paris? | Simple Present Tense</item>
+        <item>He doesn’t teach math. | Simple Present Tense</item>
+        <item>Cats hate water. | Simple Present Tense</item>
+        <item>Every child likes an icecream. | Simple Present Tense</item>
+        <item>My mother never lies. | Simple Present Tense</item>
+        <item>The Earth is spherical. | Simple Present Tense</item>
+        <item>She doesn’t use a computer. | Simple Present Tense</item>
+        <item>It snows a lot in winter in Russia. | Simple Present Tense</item>
+        <item>We live in Texas. | Simple Present Tense</item>
+        <item>You go to holiday every summer. | Simple Present Tense</item>
+        <item>Do you like spaghetti? | Simple Present Tense</item>
+        <item>My daughter does the laundry. | Simple Present Tense</item>
+        <item>My brother takes out the trash. | Simple Present Tense</item>
+        <item>The course starts next Sunday. | Simple Present Tense</item>
+        <item>She swims every morning. | Simple Present Tense</item>
+        <item>I don’t wash the dishes. | Simple Present Tense</item>
+        <item>We see them every week. | Simple Present Tense</item>
+        <item>I don’t like tea. | Simple Present Tense</item>
+        <item>When does the train usually leave? | Simple Present Tense</item>
+        <item>She always forgets her purse. | Simple Present Tense</item>
+        <item>You don’t have children. | Simple Present Tense</item>
+        <item>I and my sister don’t see each other anymore. | Simple Present Tense</item>
+        <item>They don’t go to school tomorrow. | Simple Present Tense</item>
+        <item>She wants to be a dentist. | Simple Present Tense</item>
+        <item>Cows eat grass. | Simple Present Tense</item>
+        <item>My cat runs very fast. | Simple Present Tense</item>
+        <item>My son lives in London. | Simple Present Tense</item>
+        <item>They don’t have any money. | Simple Present Tense</item>
+        <item>She plays basketball. | Simple Present Tense</item>
+        <item>He catches the train every morning. | Simple Present Tense</item>
+        <item>My sister works at the theater. | Simple Present Tense</item>
+        <item>Michael doesn’t work. | Simple Present Tense</item>
+        <item>How often do you see George? | Simple Present Tense</item>
+        <item>She doesn’t see Peter every day. | Simple Present Tense</item>
+        <item>My boyfriend loves this song. | Simple Present Tense</item>
+        <item>My father doesn’t speak good English. | Simple Present Tense</item>
+        <item>He goes to football every day. | Simple Present Tense</item>
+        <item>California is not in the United Kingdom. | Simple Present Tense</item>
+        <item>The Queen of England lives in Buckingham Palace. | Simple Present Tense</item>
+        <item>Julie talks very fast. | Simple Present Tense</item>
+        <item>My brother’s dog barks a lot. | Simple Present Tense</item>
+        <item>Does he play tennis? | Simple Present Tense</item>
+        <item>The train leaves every morning. | Simple Present Tense</item>
+        <item>Water freezes at 0°C. | Simple Present Tense</item>
+
+    </string-array>
+</resources>

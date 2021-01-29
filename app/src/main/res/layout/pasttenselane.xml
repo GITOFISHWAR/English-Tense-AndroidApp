@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardpastsimpletense"
+                android:layout_width="430dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_margin="5px"
+                android:animateLayoutChanges="true"
+                android:backgroundTint="@color/red"
+                android:clickable="true"
+                android:fadeScrollbars="true"
+                android:rotationX="1"
+                android:rotationY="3">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:rotationX="1"
+                    android:text="@string/pastsimple"
+                    android:textColor="@color/white"
+                    android:textSize="50dp"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+            <!--Past Continuous-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardpastcontinuous"
+                android:layout_width="430dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5px"
+                android:animateLayoutChanges="true"
+                android:backgroundTint="@color/teal_700"
+                android:clickable="true"
+                android:fadeScrollbars="true"
+                android:rotationX="1"
+                android:rotationY="3">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvm3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:rotationX="1"
+                    android:text="@string/pastcontinuous"
+                    android:textColor="@color/white"
+                    android:textSize="50dp"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+            <!--past perfect-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardpastperfect"
+                android:layout_width="430dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5px"
+                android:animateLayoutChanges="true"
+                android:backgroundTint="@color/purple_700"
+                android:clickable="true"
+                android:fadeScrollbars="true"
+                android:rotationX="1"
+                android:rotationY="3">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:rotationX="1"
+                    android:text="@string/pastperfect"
+                    android:textColor="@color/white"
+                    android:textSize="50dp"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <!--Past Perfect Continuous-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardpastperfectconti"
+                android:layout_width="430dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5px"
+                android:animateLayoutChanges="true"
+                android:backgroundTint="@color/green"
+                android:clickable="true"
+                android:fadeScrollbars="true"
+                android:rotationX="1"
+                android:rotationY="3">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvm4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:rotationX="1"
+                    android:text="@string/pastperfectcontinuous"
+                    android:textColor="@color/white"
+                    android:textSize="50dp"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

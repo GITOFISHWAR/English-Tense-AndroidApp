@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10px"
+                android:backgroundTint="@color/red"
+                android:clickable="true">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/past"
+                    android:textColor="@color/white"
+                    android:textSize="100px"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10px"
+                android:backgroundTint="@color/purple"
+                android:clickable="true">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvmc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/present"
+                    android:textColor="@color/white"
+                    android:textSize="100px"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10px"
+                android:backgroundTint="@color/skyblue"
+                android:clickable="true">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvmc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/future"
+                    android:textColor="@color/white"
+                    android:textSize="100px"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardpractice"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10px"
+                android:backgroundTint="@color/teal_200"
+                android:clickable="true">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvmcpractice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/practice"
+                    android:textColor="@color/white"
+                    android:textSize="100px"></com.google.android.material.textview.MaterialTextView>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardads"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10px"
+                android:backgroundTint="@color/purple_700"
+                android:clickable="true">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    ads:adSize="MEDIUM_RECTANGLE"
+                    ads:adUnitId="ca-app-pub-3940256099942544/1033173712"></com.google.android.gms.ads.AdView>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
